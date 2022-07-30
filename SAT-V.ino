@@ -75,7 +75,7 @@ void left()
   motor1.setSpeed(255); //Define maximum velocity
   motor1.run(BACKWARD); //rotate the motor anti-clockwise
   motor2.setSpeed(255); //Define maximum velocity
-  motor2.run(BACKWARD); //rotate the motor anti-clockwise
+  motor2.run(FORWARD); //rotate the motor anti-clockwise
   /*motor3.setSpeed(255); //Define maximum velocity
   motor3.run(FORWARD);  //rotate the motor clockwise
   motor4.setSpeed(255); //Define maximum velocity
